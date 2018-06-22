@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" ?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     elementFormDefault="qualified">
+	 <xs:element name="EmployeeNo">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="15" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	 <xs:element name="EmployeeSSN">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="12" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	 <xs:element name="FirstName">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="LastName">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="Address1">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="100" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="Address2">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="100" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="City">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="State">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="Zip">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="10" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	 <xs:element name="Gender">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="15" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="DOB">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>	  
+	  <xs:element name="EmployeeStatus">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+	  <xs:element name="RetiredDate">
+	   <xs:simpleType>
+		 <xs:restriction base="xs:string">
+		   <xs:maxLength value="50" />
+		 </xs:restriction>
+	   </xs:simpleType>
+	 </xs:element>
+		<xs:element name="FulltimeDate">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:maxLength value="50" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="DeathDate">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:maxLength value="50" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>	
+		<xs:element name="Pilot_Name">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+		</xs:element>
+		<xs:element name="Street_Address">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="City_State_Zip">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>	   
+	   <xs:element name="Dependent1">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="150" />
+			   </xs:restriction>
+		   </xs:simpleType>
+		</xs:element>
+		<xs:element name="Dependent2">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="150" />
+			   </xs:restriction>
+		   </xs:simpleType>
+		</xs:element>
+		<xs:element name="Dependent3">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="150" />
+			   </xs:restriction>
+		   </xs:simpleType>
+		</xs:element>
+	   <xs:element name="Addtl_Dependents">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="1000" />
+			   </xs:restriction>
+		   </xs:simpleType>
+		</xs:element>
+	   <xs:element name="Dependent1_SSN">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="10" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="Dependent2_SSN">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="10" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="Dependent3_SSN">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="10" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="Dependent1_DOB">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="50" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="Dependent2_DOB">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="50" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="Dependent3_DOB">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="50" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="D1_Address">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="D1_City_State_Zip">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="D2_Address">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="D2_City_State_Zip">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="D3_Address">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="D3_City_State_Zip">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="300" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+		<xs:element name="Seq_Num">
+			   <xs:simpleType>
+				   <xs:restriction base="xs:string">
+					   <xs:maxLength value="25" />
+				   </xs:restriction>
+			   </xs:simpleType>
+		   </xs:element>
+		<xs:element name="Print_Date">
+			   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="25" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="father_mother">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="20" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="fathers_mothers">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="20" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="he_she">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="20" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+	   <xs:element name="his_her">
+		   <xs:simpleType>
+			   <xs:restriction base="xs:string">
+				   <xs:maxLength value="20" />
+			   </xs:restriction>
+		   </xs:simpleType>
+	   </xs:element>
+   </xs:schema>

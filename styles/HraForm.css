@@ -1,0 +1,191 @@
+/* HRA Form */
+#formHra
+{
+}
+#formHra fieldset
+{
+	/*background-color:#b2b591;	*/
+	border-width:2px 0px 0px 0px;
+	border-style:solid;
+	border-color:#657887;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;		
+	margin:20px 0px 20px 0px;
+	width:650px;
+	position:relative;
+	display:block;
+	padding: 0px 10px 10px 10px;
+}
+
+#formHra fieldset legend
+{	
+	background-color:none;	
+	border-width:0px 1px;
+	border-style:solid;
+	border-color:#657887;	
+	color:#000000;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:90%;
+	letter-spacing:2px;		
+	padding:2px 5px;
+	margin:0px 0px 10px 0px;
+	position:relative;
+	top: -12px;
+	
+}
+/*
+#formSOFO fieldset legend
+{	
+	background-color:none;	
+	border-width:0px 1px;
+	border-style:solid;
+	border-color:#657887;	
+	color:#000000;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:90%;
+	letter-spacing:2px;		
+	padding:2px 5px;
+	margin:0px 0px 10px 0px;
+	position:relative;
+	top: -12px;
+	
+} */
+	 
+#formHRA fieldset legend img
+{
+	padding:0px 5px 0px 5px;	
+}
+
+.labelHra
+{
+	font-size:90%;	
+	display:block;
+	float:left;
+	width:100px;
+	text-align:right;
+	margin:12px 5px 0px 0px;
+}
+
+.inputHra
+{
+	width:220px;
+	margin:7px 0px 0px 0px;		
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+.labelHra1
+{	
+	background-color:#F7F7F7;	
+	display:block;
+	float:left;
+	width:150px;
+	text-align:left;
+	margin:15px 5px 0px 20px;
+}
+.inputHra0
+{
+	width:300px;
+	margin:10px 0px 0px 0px;		
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+.inputHra1
+{
+	width:120px;
+	margin:10px 0px 0px 0px;		
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+.inputHra2
+{
+	width:80px;
+	margin:10px 0px 0px 0px;		
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+/* dependant form*/
+.errorHra
+{
+	width:80px;
+	margin:7px 0px 0px 0px;			
+	text-align:right;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+	
+}
+.checkHra
+{
+	width:100px;
+	margin:7px 0px 0px 0px;	
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;	
+}
+.radioHra
+{
+	width:228px;
+	margin:7px 0px 0px 0px;	
+	display:block;	
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+.dropHra
+{
+	width:228px;
+	margin:7px 0px 0px 0px;	
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+.br_e
+{
+	clear:left;
+}
+
+.centerHra1
+{
+	width:225px;
+	margin:10px 0px 0px 0px;	
+	margin-left:100px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.centerHra2
+{
+	width:220px;
+	margin:5px 0px 0px 0px;	
+	margin-left:100px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+.labelMultiHra
+{
+	font-size:90%;	
+	display:block;
+	float:left;
+	width:90px;
+	text-align:left;
+	margin:12px 5px 0px 0px;
+}
+
+.inputMultiHra
+{
+	width:600px;
+	height:140px;
+	margin:7px 0px 0px 0px;		
+	border:2px solid #e2e2e2;
+	display:block;
+	overflow:scroll;		
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+
+

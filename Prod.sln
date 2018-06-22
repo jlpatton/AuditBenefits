@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Prod\", "..\Prod", "{63569040-DCA3-4843-81B7-B5A22E55837E}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/Prod.root/Prod", QUJAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		Debug.AspNetCompiler.VirtualPath = "/Prod"
+		Debug.AspNetCompiler.PhysicalPath = "..\Prod\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Prod\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Prod"
+		Release.AspNetCompiler.PhysicalPath = "..\Prod\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Prod\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1508"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = .
+		SccLocalPath1 = C:\\Documents\u0020and\u0020Settings\\739635\\My\u0020Documents\\Visual\u0020Studio\u00202005\\Projects\\Prod
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63569040-DCA3-4843-81B7-B5A22E55837E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{63569040-DCA3-4843-81B7-B5A22E55837E}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

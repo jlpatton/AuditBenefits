@@ -1,0 +1,72 @@
+﻿.clear 
+{ /* generic container (i.e. div) for floating buttons */
+	overflow: hidden;
+	width: 100%;
+}
+.imgbutton
+{
+	background: transparent url(./images/bg_button_a.gif) no-repeat scroll top right;
+	color: #444;
+	display: block;
+	float: left;
+	font: normal 12px arial, sans-serif;
+	height: 24px;
+	margin-right: 6px;
+	padding-right: 18px; /* sliding doors padding */
+	text-decoration: none;
+} 
+.imgbutton span
+{
+	background: transparent url(./images/bg_button_span.gif) no-repeat;
+	display: block;
+	line-height: 14px;
+	padding: 5px 0 5px 18px;
+}
+.imgbutton:active 
+{
+	background-position: bottom right;
+	color: #000;
+	outline: none; /* hide dotted outline in Firefox */
+}
+.imgbutton:active span 
+{
+	background-position: bottom left;
+	padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+.squarebutton{
+background: transparent url(./images/square-gray-left.gif) no-repeat top left;
+display: block;
+float: left;
+font: normal 12px Arial; 
+line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+height: 23px; /* Height of button background height */
+padding-left: 9px; /* Width of left menu image */
+text-decoration: none;
+width: 90px;
+text-align:center;
+}
+
+:link.squarebutton, :visited.squarebutton, :active.squarebutton{
+color: #494949; /*button text color*/
+}
+
+.squarebutton span{
+background: transparent url(./images/square-gray-right.gif) no-repeat top right;
+display: block;
+padding: 4px 9px 4px 0; /*Set 9px below to match value of 'padding-left' value above*/
+}
+
+.squarebutton:hover{ /* Hover state CSS */
+background-position: bottom left;
+}
+
+.squarebutton:hover span{ /* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+.buttonwrapper{ /* Container to surround a CSS button to clear float */
+overflow: hidden;
+width: 100%;
+}

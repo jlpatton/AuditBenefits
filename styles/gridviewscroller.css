@@ -1,0 +1,16 @@
+﻿
+.scroller 
+{
+    /* So the overflow scrolls */
+    overflow:auto;
+}
+.scroller table tbody 
+{
+    /* For alignment of the scroll bar */
+    overflow-x:hidden;
+}  
+            
+                               
+            
+
+

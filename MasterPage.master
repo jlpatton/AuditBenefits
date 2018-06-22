@@ -1,0 +1,141 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register TagPrefix="SessionTimer" TagName="sTimer" Src="~/UserControls/TimerControl.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<?xml version="1.0" encoding="iso-8859-1"?>
+<head runat="server">
+    <title>Untitled Page</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <link href="styles/home.css" rel="stylesheet" type="text/css" />
+    <link href="styles/menu.css" rel="stylesheet" type="text/css" />
+    <link href="styles/step.css" rel="stylesheet" type="text/css" />
+    <link href="styles/sitemapstyler.css" rel="stylesheet" type="text/css" />
+    <link href="styles/progress.css" rel="stylesheet" type="text/css" />
+    <link href="styles/ui.tabs.css" rel="stylesheet" type="text/css" media="print, projection, screen" />
+    <link href="styles/form.css" rel="stylesheet" type="text/css" /> 
+    <link href="styles/CustomGrid.css" rel="stylesheet" type="text/css" /> 
+    <link href="styles/ReconGrid.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="styles/GridViewStyle.css" />
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" href="styles/ui.tabs.css" type="text/css" media="projection, screen">
+    <![endif]-->
+    <link href="styles/imagebutton.css" rel="stylesheet" type="text/css" />
+    <link href="styles/gridviewscroller.css" rel="stylesheet" type="text/css" />    
+    <link href="styles/HraForm.css" rel="stylesheet" type="text/css" />
+    <link href="styles/messageStyle.css" rel="stylesheet" type="text/css" />
+    <link href="styles/SOFO.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/jquery-1.2.3.min.js") %>'></script>   
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/ui.tabs.js") %>'></script> 
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/sitemap.js") %>'></script>
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/window_onload.js") %>'></script>    
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/IPBA.js") %>'></script>
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/EditableDropDown.js") %>'></script>    
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/File_functions.js") %>'></script>  
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/switchViews.js") %>'></script> 
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/PGP_File.js") %>'></script> 
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/VWA.js") %>'></script> 
+    <script type="text/javascript" src='<%= ResolveClientUrl("~/ClientScripts/Check_UnCheckAll.js") %>'></script> 
+    
+    <script type="text/javascript"> 
+    <!--
+        $(  
+            function() 
+            {
+                $('#container-1 > ul').tabs({ selected: 0 });
+            }
+         )
+    -->
+    </script>    
+    <script type="text/javascript">
+    <!--
+    function clickButton(e, buttonid)
+    {
+
+      var evt = e ? e : window.event;
+      var bt = document.getElementById(buttonid);
+      if (bt)
+      {
+
+          if (evt.keyCode == 13)
+          {
+                bt.click();
+                return false;
+
+          }
+
+      }
+
+    }
+    -->
+    </script>
+    <!--[if lte IE 6]>
+<style type="text/css">
+.clearfix {	height: 1%;}
+</style>
+<![endif]-->
+
+<!--[if gte IE 7.0]>
+<style type="text/css">
+.clearfix {	display: inline-block;}
+</style>
+<![endif]-->
+</head>
+<body>
+    <div id="eb-wrapper">
+    <div id="eb-wrapper-inner" class="clearfix">
+        <div id = "container">
+            <form id="form1" runat="server">
+            <asp:ScriptManager ID="ScriptManager1"  EnablePageMethods="true" runat="server"/> 
+                <div id = "header">
+                    <div id = "logo">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/styles/images/corp_logo.gif" />
+                    </div>
+                    <div id = "loggedin">
+                        <asp:Label ID="lblName" runat="server" Text=""></asp:Label>
+                    </div> 
+                    <div id = "hhome">
+                        <table>
+                            <tr>
+                                <td align="center" style="border-right:Solid 1px #DEDEDE;width:50px;">
+                                    <asp:HyperLink ID="hypHome" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+                                </td>
+                                <td align="center" style="width:50px;">
+                                    <asp:LoginStatus ID="loginStatus" runat="server" LogoutPageUrl="~/logout.aspx"
+                                        LogoutAction="Redirect"/>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                    </div>       
+                </div>        
+                <div id = "center">
+                    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                    </asp:contentplaceholder>            
+                </div>
+                <div id="clearfooter">
+                    <SessionTimer:sTimer runat="server" SessionExpiredRedirect="~/SessionTimedout.aspx" />
+                </div>                
+            </form>
+        </div>
+        <div id="eb-footerwrap"> 
+            <div id="eb-footerlist" class="clearfix">
+                <div class="footertable ">
+                    <ul>
+                        <li><a href="http://www.fedex.com/?location=home&link=5">Global Home</a></li> 
+                        <li><a href='<%= ResolveClientUrl("~/Home.aspx") %>'>EBA Home</a></li>
+                        <li><a href="http://www.fedex.com/us/about/" class="headerLinks">About FedEx</a></li> 
+                    </ul>
+                </div>	
+	        </div> 
+	        <div id="eb-footer">
+	            <p id="eb-bottomline">         
+                    <b> &copy;2008 FedEx</b>  
+                </p>  
+            </div>                  
+        </div>                   
+    </div>
+    </div>
+</body>
+</html>

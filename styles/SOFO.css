@@ -1,0 +1,104 @@
+﻿#formSOFO
+{
+}
+#formSOFO fieldset
+{	
+	background: #fcfcfc;
+	border-width:2px;
+	border-style:solid;
+	border-color:#E6E6FA;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;		
+	margin:30px 0px 20px 0px;
+	width:650px;
+	position:relative;
+	display:block;
+	padding: 0px 10px 10px 10px;
+}
+#formSOFO fieldset legend
+{	
+	/*background-color:none;	
+	/*border-width:0px 1px;
+	border-style:solid;
+	border-color:#657887;	*/
+	/*
+	font-weight:bold;
+	text-transform:uppercase;*/
+	color:#5D478B	;
+	font-size:110%;
+	letter-spacing:1px;		
+	padding:4px 10px;
+	margin:0px 0px 10px 0px;
+	position:relative;
+	top: -12px;	
+}	 
+#formSOFO fieldset legend img
+{
+	padding:0px 5px 0px 5px;	
+}
+.labelHra1
+{	
+	background-color:#F7F7F7;	
+	display:block;
+	float:left;
+	width:200px;
+	text-align:left;
+	margin:15px 20px 0px 40px;
+}
+.inputHra1
+{
+	width:140px;
+	margin:10px 0px 0px 0px;	
+	/*border-width: 1px 1px 4px 1px;
+	border-style: solid solid ridge solid;
+	border-color:#657887;*/
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;
+}
+
+
+.squarebutton{
+background: transparent url(./images/square-gray-left.gif) no-repeat top left;
+display: block;
+float: left;
+font: normal 12px Arial; /* Change 12px as desired */
+line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+height: 23px; /* Height of button background height */
+padding-left: 9px; /* Width of left menu image */
+text-decoration: none;
+width: 90px;
+text-align:center;
+}
+
+:link.squarebutton, :visited.squarebutton, :active.squarebutton{
+color: #494949; /*button text color*/
+}
+
+.squarebutton span{
+background: transparent url(./images/square-gray-right.gif) no-repeat top right;
+display: block;
+padding: 4px 9px 4px 0; /*Set 9px below to match value of 'padding-left' value above*/
+}
+
+.squarebutton:hover{ /* Hover state CSS */
+background-position: bottom left;
+}
+
+.squarebutton:hover span{ /* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+.buttonwrapper{ /* Container to surround a CSS button to clear float */
+overflow: hidden;
+width: 100%;
+}
+
+
+
+
+
+
+
+

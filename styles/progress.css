@@ -1,0 +1,21 @@
+﻿#progress 
+{	
+	float:left;
+	width:700px;
+	margin-top:10px;
+	margin-left:-40px;		
+}
+#progress li
+{
+	height:71px;
+	list-style:none;
+	float:left;
+	background:#EBEBEB url(./images/navBtn.gif) no-repeat right top;	
+}
+#progress li span
+{
+	width:115px;
+	display:block;
+	margin-left:0px;
+	font-weight:normal;
+}

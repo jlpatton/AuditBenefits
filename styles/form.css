@@ -1,0 +1,507 @@
+﻿
+#gridv1
+{		
+	float:left;
+	margin-top:20px;			
+}
+#formStyle1
+{
+	float:left;	
+	margin-top:20px;
+	width:600px;	
+}
+#formStyle1 fieldset 
+{
+	/*position: relative;
+	margin: 0 0 1em 0;*/
+	border:solid 1px #DEDEDE;
+	background: #fcfcfc;
+	width: 600px;
+	padding-left: 25px;
+}
+
+legend 
+{
+	/*position: absolute;
+	top: -.5em;
+	left: .2em;*/
+	color: #5F5265;
+}
+#formStyle1  legend 
+{
+	color:#474774;
+	background:#EBEFFB;
+	border:#BBBDD6 solid 1px;
+	padding:1px 10px;
+}
+.label1,.input1, .textArea1
+{
+	display: block;
+	width: 150px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.label1 
+{
+	text-align: right;
+	width: 75px;
+	padding-right: 20px;
+	font:Verdana 12pt;
+	margin-top:5px;
+	/*color:#00008B;*/
+}
+
+.br1
+{
+	clear: left;
+}
+.button1
+{
+	margin-left:50px;
+	/*border:solid 1px #BBB;*/
+	height: 25px;		
+	
+}
+.button2
+{
+	margin-left:57px;
+	/*border:solid 1px #BBB;*/
+	height: 25px;		
+	
+}
+
+.multitab
+{
+	position:absolute;
+	top:80px;
+}
+/*gridview style*/
+
+.Grid { border: solid 1px #FFFFFF; width:640px;}
+.Grid td
+{
+	border-top: none;
+	/*border: solid 1px #DEDEDE;*/
+	margin: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	text-align:center;
+	width:100px;		
+}
+.GridHeader
+{
+	font-weight: bold;
+	background-color: #808080;
+	color:#ffffff;
+	text-align:center;
+	height:25px;
+}
+.GridHeader a:link,.GridHeader a:visited
+{
+	background-color: #808080;
+	color:#ffffff;
+}
+.GridItem
+{
+	background-color: #e6e6e6;	
+}
+
+.GridAltItem
+{
+	background-color: white;	
+}
+.GridRowstyle
+{
+	background-color:#F7F6F3;
+}
+.GridSelected
+{
+	color:#6495ed;	
+}
+.Gridfooter
+{
+	margin:0;
+	padding:0;
+	background-color:#5D7B9D;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:center;
+}
+.Gridpager, .Gridpager td
+{    
+    text-align: right;
+    color: #5D7B9D;    
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#808080;
+}
+.Gridpager a
+
+{
+    color: White;
+    font-weight: normal;
+}
+
+/* Audit page styling */
+.auditGrid
+{
+	float:left;
+	margin-top:20px;
+	width:700px;
+}
+/*grid css for recon*/
+
+/*gridview style*/
+
+.Grid1 
+{ 
+	border: solid 1px #FFFFFF; 
+	width:600px;
+}
+.Grid1 td
+{
+	border-top: none;
+	/*border: solid 1px #DEDEDE;*/
+	margin: 0px;
+	padding: 3px;
+	text-align:center;
+	height:30px;		
+}
+.GridHeader1
+{
+	font-weight: bold;
+	background-color: #808080;
+	color:#ffffff;
+	text-align:center;
+	height:25px;
+}
+.GridHeader1 a:link,.GridHeader1 a:visited
+{
+	background-color: #808080;
+	color:#ffffff;
+}
+.GridItem1
+{
+	background-color: #e6e6e6;
+}
+
+.GridAltItem1
+{
+	background-color: white;
+	color:#284775;
+}
+.GridRowstyle1
+{
+	background-color:#F7F6F3;
+}
+.Gridfooter1
+{
+	margin:0;
+	padding:0;
+	background:#5D7B9D;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:center;
+}
+.Gridpager1, .Gridpager1 td
+{    
+    text-align: right;
+    color: #5D7B9D;    
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#808080;
+}
+.Gridpager1 a
+
+{
+    color: White;
+    font-weight: normal;
+}
+
+/* style for HRA pilot form */
+#multiView
+{
+	float:left;
+	width:700px;	
+	background: #fcfcfc;
+	/*border:solid 1px #ddd;*/
+	border:none;		
+}
+.bottomDiv
+{	
+	
+}
+.Menu
+{
+	float:left;
+	width:700px; 
+	font-family: verdana, arial, sans-serif; 
+	font-size:11px;	
+	background:#ddd url(./images/menu.gif) repeat-x; 
+	margin:15px 0 0 0;
+	border:solid 1px #ddd; 
+	border-bottom:none;			
+}
+.tab
+{	
+	display:block; 	 
+	color:#444; 
+	padding:0px 16px; 
+	line-height:25px; 
+	height:30px;
+	margin-left:10px;		
+	
+}
+.selectedTab1
+{		     
+    letter-spacing:1px;
+    background:#aaa url(./images/submenu.gif); 
+	color:#660099;      
+}
+.selectedTab
+{
+	letter-spacing:1px;
+	font-weight:bold;	
+	color:#660099;
+	background: #fcfcfc;	
+}
+#fieldset1,#fieldset2,#fieldset3,#fieldset4,#fieldset5,#fieldset6,#fieldset7
+{
+	margin:1em 0;
+	border:none;
+	border-top:1px solid #ccc;	
+	width:700px;	
+	background: #fcfcfc;	
+	
+}
+#fieldset1 legend,#fieldset2 legend,#fieldset3 legend,#fieldset4 legend,#fieldset5 legend,#fieldset6 legend,#fieldset7 legend
+{
+	margin:1em 0;
+	padding:0 .5em;
+	color:#036;
+	background:transparent;
+	font-size:1.3em;
+	font-weight:bold;
+	top: -.5em; 
+	left: .5em;			
+}
+.labelcell
+{	margin-left:20px;
+	text-align:right;
+}
+.labelcell1
+{	margin-left:20px;
+	text-align:right;
+	width:100px;
+}
+.fieldcell
+{
+	width:200px;
+	border-top:1px solid #555;
+	border-left:1px solid #555;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:1px;color:#333;	
+	text-align:left;
+}
+.smallfieldcell
+{
+	width:80px;
+	border-top:1px solid #555;
+	border-left:1px solid #555;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:1px;color:#333;	
+	text-align:left;
+}
+.verysmallfieldcell
+{
+	width:50px;
+	border-top:1px solid #555;
+	border-left:1px solid #555;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:1px;color:#333;	
+	text-align:left;
+}
+.verysmallfieldcell1
+{
+	width:50px;	
+	padding:1px;color:#333;	
+	text-align:left;
+}
+#adminTabDiv
+{
+	float:left;
+	width:680px;
+	margin-left:15px;
+	/*background: #fcfcfc;*/
+	margin-top:20px;
+}
+.tabDiv1,tabDiv2
+{
+	float:left;
+	width:200px;
+	margin-top:20px;
+	font-size:10pt;		
+}
+
+
+#importbox1
+{
+	float:left;
+	width:600px;
+	margin-top:20px;
+}
+#importbox1 fieldset 
+{
+/*position: relative;
+margin: 0 0 1em 0;*/
+border:solid 1px #DEDEDE;
+background: #fcfcfc;
+width: 600px;
+padding-left: 25px;
+}
+
+legend 
+{
+/*position: absolute;
+top: -.5em;
+left: .2em;*/
+color: #5F5265;
+}
+#importbox1  legend {
+color:#474774;
+background:#EBEFFB;
+border:#BBBDD6 solid 1px;
+padding:1px 10px;
+}
+#form1
+{
+}
+#form1 fieldset
+{	
+	background: #fcfcfc;
+	border-width:2px;
+	border-style:solid;
+	border-color:#E6E6FA;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;		
+	margin:40px 0px 20px 0px;
+	width:720px;
+	position:relative;
+	display:block;
+	padding: 0px 10px 10px 10px;
+}
+#form1 fieldset legend
+{	
+	/*background-color:none;	
+	/*border-width:0px 1px;
+	border-style:solid;
+	border-color:#657887;	*/
+	/*
+	font-weight:bold;
+	text-transform:uppercase;*/
+	color:#5D478B	;
+	padding:4px 10px;
+	margin:0px 0px 10px 0px;
+	position:relative;
+	top: -12px;	
+}	 
+#form1 fieldset legend img
+{
+	padding:0px 5px 0px 5px;	
+}
+
+#webformIPBA
+{
+	float:left;	
+	width:680px;
+	margin: 3px 5px 5px 210px;
+	padding: 5px;
+}
+.webformIPBA label
+{
+	font-size:110%;
+	background-color:#FcFcFc;	
+	display:block;
+	float:left;
+	width:190px;	
+	text-align:left;
+	margin:12px 5px 0px 10px;
+}
+.webformIPBA input[type="text"]
+{
+	width:220px;
+	margin:7px 0px 0px 20px;		
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;	
+}
+
+.webformIPBA select 
+{	
+	margin:7px 0px 0px 20px;	
+	border:2px solid #e2e2e2;	
+	font-family:Arial, Helvetica, sans-serif;
+	padding:1px 2px;	
+}
+.webformIPBA br
+{
+	clear:left;
+}
+.tableResult
+{
+	margin-left:20px;
+	width:650px;
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;		
+}
+.tableResult td
+{
+	padding-left:17px;
+	width:150px;
+}
+.tableResult tr
+{
+	height:30px;
+	line-height:30px;
+}
+.tableResult tr:hover
+{
+	margin-left:10px;
+	width:650px;
+	/*background:#b9cbd1 url('./images/valuehover.gif') 6px center no-repeat;*/
+	background:#b9cbd1;
+}
+.tableResult .right
+{
+	text-align:right;
+	padding-right:17px;	
+}
+.trdivider
+{
+	margin-left:20px;
+	width:650px;
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:12px;
+}
+.trdivider tr
+{
+	height:2px;
+	line-height:2px;
+}
+.divider 
+{
+	background:url('../images/account.jpg') bottom repeat-x;
+	line-height:2px;
+	display:block;	
+}
+
+
+
+
+

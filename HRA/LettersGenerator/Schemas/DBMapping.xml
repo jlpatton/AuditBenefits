@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<Columns>
+		<element name="EmployeeNo">
+			<col>empl_empno</col>
+		</element>
+		<element name="EmployeeSSN">       
+         <col>empl_ssn</col>
+		</element>
+		<element name="FirstName">
+	       <col>empl_fname</col>
+		</element>
+		<element name="LastName">
+	       <col>empl_lname</col>
+		</element>
+		<element name="Address1">
+	       <col>addr_addr1</col>
+		</element>
+		<element name="Address2">
+	       <col>addr_addr2</col>
+		</element>
+		<element name="City">
+	       <col>addr_city</col>
+		</element>
+		<element name="State">
+	       <col>addr_state</col>
+		</element>
+		<element name="Zip">
+	       <col>addr_zip</col>
+		</element>
+		<element name="Gender">
+	       <col>empl_sex</col>
+		</element>
+		<element name="DateofBirth">
+	       <col>empl_dob</col>
+		</element>
+		  <element name="MaritalStatus">
+	      <col>empl_mstat</col>
+		</element>
+		<element name="EmployeeStatus">
+	       <col>empl_statcd</col>
+		</element>
+		<element name="RetireDate">
+	       <col>empl_retire_dt</col>
+		</element>
+		<element name="HireDate">
+	      <col>empl_fulltime_dt</col>
+		</element>
+		<element name="DeathDate">
+	      <col>empl_death_dt</col>
+		</element>
+		<element name="DependantFirstname">
+	       <col>dpnd_fname</col>
+		</element>
+		<element name="DependantLastname">
+	       <col>dpnd_lname</col>
+		</element>
+		<element name="DependantRelations">
+	       <col>dpnd_Relationship</col>
+		</element>
+		<element name="DependantGender">
+	      <col>dpnd_sex</col>
+		</element>
+		<element name="DependantDOB">
+	      <col>dpnd_dob</col>
+		</element>
+		<element name="HRAAmount">
+	      <col>hraamt</col>
+		</element>     
+	</Columns>
+       
+  

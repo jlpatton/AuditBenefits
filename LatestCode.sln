@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\LatestCode\", "..\LatestCode", "{F0170C41-ACC6-4224-9033-F754A648CFE5}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/EBNET_DEV/LatestCode.root/LatestCode", NVEAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		Debug.AspNetCompiler.VirtualPath = "/LatestCode"
+		Debug.AspNetCompiler.PhysicalPath = "..\LatestCode\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\LatestCode\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/LatestCode"
+		Release.AspNetCompiler.PhysicalPath = "..\LatestCode\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\LatestCode\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2387"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = .
+		SccLocalPath1 = C:\\Documents\u0020and\u0020Settings\\739635\\My\u0020Documents\\Visual\u0020Studio\u00202005\\Projects\\LatestCode
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0170C41-ACC6-4224-9033-F754A648CFE5}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F0170C41-ACC6-4224-9033-F754A648CFE5}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
